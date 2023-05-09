@@ -1,0 +1,395 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Inter', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: centre;
+    justify-content: space-around;
+    background-color: rgb(31, 37, 51);
+    height: 60px;
+    margin-left: -100px;
+    margin-right: -100px;
+}
+nav .left{
+    display: flex;
+}
+nav .right{
+    display: flex;
+}
+.left i{
+    margin-inline: 10px;
+    
+}
+.right i{
+    margin-inline: 10px;
+}
+.left img{
+    height: 40px;
+    margin-top: 10px;
+}
+.left input{
+    height: 30px;
+    width: 500px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+.right i{
+    color: white;
+    margin-top: 20px;
+}
+.right h{
+    margin-top: 1px;
+}
+.right button{
+    height: 25px;
+    width: 80px;
+    background-color: rgb(230, 74, 74);
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    margin: -2px;
+}
+.right button:hover{
+    background-color: rgb(203, 196, 196);
+}
+
+
+
+
+.menu{
+    padding:1%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(39, 39, 66);
+    color: rgb(224, 222, 222);
+    margin-left: -100px;
+    margin-right: -100px;
+}
+.menu .left{
+    display: flex;
+}
+.menu .right{
+    display: flex;;
+}
+.menu .left p{
+    margin-inline: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.menu .right p{
+    margin-inline: 10px;
+    font-size: 15px;
+}
+
+
+
+
+.bground img{
+    height: 400px;
+    width: 1500px;
+}
+
+
+
+
+.movies{
+    padding: 2%;
+}
+.movies .caption{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.caption h1{
+    margin-left: -480px;
+}
+.caption p{
+    margin-right: -470px;
+    color: rgb(230, 74, 74);;
+    margin-top: 10px;
+}
+.movies .imgs{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-inline: 0px;
+}
+.imgs .img1 img{
+    height: 400px;
+    border-radius: 10px;
+}
+.imgs .img2 img{
+    height: 400px;
+    border-radius: 10px;
+}
+.imgs .img3 img{
+    height: 400px;
+    border-radius: 10px;
+}
+.imgs .img4 img{
+    height: 400px;
+    border-radius: 10px;
+}
+.imgs .img5 img{
+    height: 400px;
+    border-radius: 10px;
+}
+.imgs .img1 h1{
+    font-size: 20px;
+}
+.imgs .img2 h1{
+    font-size: 20px;
+}
+.imgs .img3 h1{
+    font-size: 20px;
+}
+.imgs .img4 h1{
+    font-size: 20px;
+}
+.imgs .img5 h1{
+    font-size: 20px;
+}
+.imgs h1{
+    margin-left: 6px;
+}
+.imgs p{
+    margin-left: 6px;   
+}
+
+
+
+
+.reel img{
+    width: 1360px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+
+
+
+.events{
+    padding: 5%;
+}
+.events .caption h2{
+    color: black;
+    margin-left: -30px;
+    font-size: 30px;
+}
+.events .imgs{
+    display: flex;
+    margin-top: 20px;
+    height: 230px;
+    margin-left: -48px;
+}
+
+.events .imgs img{
+    margin-inline: 25px;
+    border-radius: 10px;  
+}
+
+
+
+
+.premiere{
+    padding: 5%;
+    background-color: rgb(31, 37, 51);
+}
+.premiere .logo{
+    display: flex;
+    margin-top: -15px;
+    color: aliceblue;
+}
+.premiere .logo img{
+    height: 150px;
+    margin-top: -50px;
+}
+.premiere .logo .pre{
+    margin-top: -1px;
+}
+
+.premiere .caption{
+    color: rgb(245, 245, 245);
+    margin-left: 55px;
+}
+
+.premiere .images{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+.premiere .images img{
+    height: 400px;
+    border-radius: 10px;
+    margin-inline: 20px;
+}
+.premiere .images h3{
+    color: rgb(245, 245, 245);
+    margin-left: 25px;
+    margin-top: 10px;
+}    
+.premiere .images p{
+    color: rgb(245, 245, 245);
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+
+
+
+
+.trending
+{
+    padding: 5%;
+    margin-top: -50px;
+    margin-left: -20px;
+}
+.trending .button1 button{
+    margin-top: 20px;
+    background-color: rgb(245,245,245);
+    border: none;
+    margin-inline: 30px;
+    width: 300px;
+    height: 70px;
+}
+.trending .button2 button{
+    margin-top: 20px;
+    background-color: rgb(245,245,245);
+    border: none;
+    margin-inline: 30px;
+    width: 300px;
+}   
+.trending .button{
+    display: flex;
+}
+.trending  h2{
+    color: #F84464;
+}
+.trending p{
+    color: rgb(123, 109, 109);
+}
+
+
+
+
+.home{
+    padding: 1%;
+    background-color: #F5F5F5;
+    color: rgb(150, 142, 142);
+}
+.home p{
+    margin-left: 60px;
+    font-size: 13px;
+}
+
+
+
+.show{
+    padding: 1%;
+    background-color: #1F2533;
+    display: flex;
+}
+.show img{
+    margin-left: 60px;
+}
+.show h1{
+    color: rgb(211, 203, 192);
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.show p{
+    color: rgb(211, 203, 192); 
+    font-size: 15px;
+    margin-left: 20px; 
+    margin-top: 10px;
+}
+.show button{
+    background-color: #F84464;
+    color: #F5F5F5;
+    margin-left: 300px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 15px;
+}
+.show button:hover{
+    background-color: rgb(136, 123, 123);
+}
+
+
+
+
+.service{
+    padding: 2%;
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    justify-content: space-around;
+}
+.service img{
+    height: 70px;
+}
+.service p{
+
+    margin-left: -70px;
+    font-size: 13px;
+}
+.service .img1 p{
+    margin-left: -40px;
+}
+ .more{
+    padding: 2%;
+    background-color: #1F2533;
+    color: grey;
+    font-size: 10px;
+ }
+ .more h1{
+    font-size: 10px;
+ }
+ .more .details{
+    margin-left: 50px;
+ }
+
+
+
+
+ footer{
+    padding: 3%;
+    background-color: #1F2533;
+    justify-content: center;
+    justify-content: space-around;
+ }
+ footer .logo{
+    height: 200px;
+    width: 200px;
+    margin-left: 575px;
+ }
+ footer .icon{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-inline: 530px;
+    margin-top: -130px;
+ }
+ footer .icon img{
+    height: 50px;
+    width: 50px;
+ }
+.rights{
+    color: grey;
+    font-size: 10px;
+    margin-left: 525px;
+    margin-top: 10px;
+ }
+
+
+
+
